@@ -110,7 +110,6 @@ echo "Created application version for elasticbeanstalk"
 aws elasticbeanstalk create-environment \
     --cname-prefix $cname \
     --application-name $identifier \
-    --version-label $identifier-v1 \
     --environment-name $identifier-invoicer-api \
     --description "Invoicer API environment" \
     --tags "Key=Owner,Value=$(whoami)" \
