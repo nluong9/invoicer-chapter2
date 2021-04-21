@@ -19,11 +19,11 @@ replace the `working_directory` parameter with your own namespace.
 
 For example:
 ```yaml
-    working_directory: /go/src/github.com/Securing-DevOps/invoicer-chapter2
+    working_directory: github.com/nluong9/invoicer-chapter2
 ```
 would become:
 ```yaml
-    working_directory: /go/src/github.com/jvehent/invoicer-chapter2
+    working_directory: github.com/nluong9/invoicer-chapter2
 ```
 
 Then, sign up for circleci and build the project.The build will initially fail
